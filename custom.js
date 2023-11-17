@@ -6,11 +6,10 @@ $(function () {
         let p = document.createElement("p");
         p.innerHTML = item;
         console.log(config.imgs);
-        console.og(config.img[item]);
+        console.og(config.imgs[item]);
         if (config.imgs) {
             let img = document.createElement("img");
-            img.src = "./imgs/ZhangRan.png";
-            
+            img.src = config.imgs[tem];
             img.setAttribute("class", 'text-img');
             p.appendChild(img);
         }
