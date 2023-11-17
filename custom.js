@@ -1,5 +1,6 @@
 // 霸都丶傲天 2019.10.10
 $(function () {
+    console.log("图片方法")
     let dom = document.createElement("span");
     config.texts.forEach(function (item) {
         let p = document.createElement("p");
@@ -7,7 +8,7 @@ $(function () {
         if (config.imgs && config.imgs[item]) {
             let img = document.createElement("img");
             img.src = config.imgs[item];
-            consolo.log(img.src,config.imgs)
+            console.log(img.src,config.imgs)
             img.setAttribute("class", 'text-img');
             p.appendChild(img);
         }
