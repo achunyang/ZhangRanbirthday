@@ -9,7 +9,7 @@ $(function () {
         console.log(config.imgs[item]);
         if (config.imgs && config.imgs[item]) {
             let img = document.createElement("img");
-            img.src = config.imgs[item];
+            img.src = config.imgs["今日寿星"];
             img.setAttribute("class", 'text-img');
             p.appendChild(img);
         }
