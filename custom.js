@@ -6,7 +6,7 @@ $(function () {
         let p = document.createElement("p");
         p.innerHTML = item;
         console.log(config.imgs);
-        console.og(config.imgs[item]);
+        console.log(config.imgs[item]);
         if (config.imgs) {
             let img = document.createElement("img");
             img.src = config.imgs[tem];
