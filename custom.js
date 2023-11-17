@@ -5,10 +5,11 @@ $(function () {
     config.texts.forEach(function (item) {
         let p = document.createElement("p");
         p.innerHTML = item;
+        console.log(config.imgs)
         if (config.imgs && config.imgs[item]) {
             let img = document.createElement("img");
             img.src = config.imgs[item];
-            console.log(img.src,config.imgs)
+            
             img.setAttribute("class", 'text-img');
             p.appendChild(img);
         }
