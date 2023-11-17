@@ -9,7 +9,7 @@ $(function () {
         console.log(config.imgs[item]);
         if (config.imgs) {
             let img = document.createElement("img");
-            img.src = config.imgs[tem];
+            img.src = config.imgs[item];
             img.setAttribute("class", 'text-img');
             p.appendChild(img);
         }
